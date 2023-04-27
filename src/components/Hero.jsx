@@ -26,21 +26,63 @@ const Container = styled.div`
 
 const Left = styled.div`
 flex: 2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
 
 `;
-const Title = styled.h1``;
-const WhatWeDo = styled.div``;
-const Line = styled.img``;
-const Subtitle = styled.h2``;
-const Desc = styled.p``;
-const Button = styled.button``;
+
+const Title = styled.h1`
+font-size: 70px;
+`;
+
+const WhatWeDo = styled.div`
+display: flex;
+align-items: center;
+gap: 10px;
+`;
+
+const Line = styled.img`
+hight: 5px;
+`;
+
+const Subtitle = styled.h2`
+color: #da4ea2;
+
+`;
+
+const Desc = styled.p`
+font-size: 24px;
+color: lightgray;
+
+`;
+
+const Button = styled.button`
+background-color: #da4ea2;
+color: white;
+font-weight: 50px;
+border: none;
+width: 100px;
+padding: 10px;
+border-radius: 20px;
+cursor: pointer;
+
+`;
 
 
 const Right = styled.div`
 flex: 3;
 
 `;
-const Img = styled.img``;
+
+const Img = styled.img`
+width: 800px;
+height: 600px;
+object-fit: contain;
+
+`;
+
 
 const Hero = () => {
   return (
