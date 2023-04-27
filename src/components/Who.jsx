@@ -68,6 +68,7 @@ border: none;
 width: 100px;
 padding: 10px;
 border-radius: 20px;
+cursor: pointer;
 
 `;
 
