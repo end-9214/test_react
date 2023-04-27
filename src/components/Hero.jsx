@@ -73,13 +73,27 @@ cursor: pointer;
 
 const Right = styled.div`
 flex: 3;
-
+position: relative;
 `;
 
 const Img = styled.img`
 width: 800px;
 height: 600px;
 object-fit: contain;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+animation: animate 2s infinite ease alternate;
+
+@keyframes animate {
+  to {
+  transform: translateY(20px);
+  }
+}
+
 
 `;
 
