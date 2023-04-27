@@ -15,8 +15,8 @@ const Container = styled.div`
 `;
 const Links = styled.div``;
 const Logo = styled.img``;
-const Lists = styled.ul``;
-const ListItems = styled.li``;
+const List = styled.ul``;
+const ListItem = styled.li``;
 const Icons = styled.div``;
 const Icon = styled.img``;
 const Button = styled.button``;
@@ -27,13 +27,13 @@ const Navbar = () => {
       <Container>
         <Links>
         <Logo src="./img/logo.png"/>
-        <Lists>
-          <ListItems>Home</ListItems>
-          <ListItems>About</ListItems>
-          <ListItems>Works</ListItems>
-          <ListItems>Contact</ListItems>
+        <List>
+          <ListItem>Home</ListItem>
+          <ListItem>About</ListItem>
+          <ListItem>Works</ListItem>
+          <ListItem>Contact</ListItem>
 
-        </Lists>
+        </List>
         </Links>
 
         <Icons>
