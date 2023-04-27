@@ -6,7 +6,15 @@ const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
 
-`
+`;
+
+const Container = styled.div``;
+
+const Section = styled.div``;
+
+const Section = styled.div``;
+
+const Section = styled.div``;
 
 const Contact = () => {
   return (
