@@ -79,8 +79,8 @@ position: relative;
 `;
 
 const Img = styled.img`
-width: 700px;
-height: 600px;
+width: 680px;
+height: 580px;
 object-fit: contain;
 position: absolute;
 top: 0;
@@ -120,7 +120,7 @@ const Hero = () => {
       <ambientLight intensity={1} />
       <directionalLight position={[3,2,1]}/>
         <Sphere args={[1,100,200]} scale={1.5}>
-        <MeshDistortMaterial color="#3d1c56" attach="material" distort={0.5} speed={2}/>
+        <MeshDistortMaterial color="#450c70" attach="material" distort={0.5} speed={2}/>
         </Sphere>
       </Canvas>
           {<Img src="./img/moon.png"/>}
